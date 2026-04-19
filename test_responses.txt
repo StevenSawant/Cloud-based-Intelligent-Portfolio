@@ -1,0 +1,63 @@
+========================================================
+   PORTFOLIO AI TESTING EXAMPLES
+========================================================
+
+Below are test messages you can copy and paste into your 
+portfolio's contact form. Each one is designed to trigger
+a completely different personalized email response!
+
+--------------------------------------------------------
+TEST 1: The "CV / Resume" Trigger
+--------------------------------------------------------
+COPY THIS:
+"Hi Steven, I came across your portfolio and I'm very impressed with your background. Could you please send me your latest CV so I can share it with my team?"
+
+EXPECTED EMAIL INCLUDES:
+"I see that you mentioned my C.V in your message. I am happy to forward you my C.V in response..."
+
+--------------------------------------------------------
+TEST 2: The "Project / GitHub" Trigger
+--------------------------------------------------------
+COPY THIS:
+"Hello, I enjoyed looking at the projects on this site. I'd love to see more of your code. Do you have a GitHub profile I can review?"
+
+EXPECTED EMAIL INCLUDES:
+"The projects I listed on my site only include those not running in production. I have several other projects that might interest you..."
+
+--------------------------------------------------------
+TEST 3: The "Article / Blog" Trigger
+--------------------------------------------------------
+COPY THIS:
+"Hi Steven, I really enjoyed reading that data science article you wrote. Do you have a blog setup where I can follow your future writings?"
+
+EXPECTED EMAIL INCLUDES:
+"In your message you mentioned my blog posts and data science articles. I have several other articles published in academic journals..."
+
+--------------------------------------------------------
+TEST 4: The "Everything Machine" (Triggers all 3!)
+--------------------------------------------------------
+COPY THIS:
+"Hello! Your resume looks fantastic. I also took a look at your github project and read your latest post. Very impressive work overall."
+
+EXPECTED EMAIL INCLUDES:
+A massive email combining the CV paragraph, the Project paragraph, and the Article paragraph all into one!
+
+--------------------------------------------------------
+TEST 5: Generic Positive (No trigger words used)
+--------------------------------------------------------
+COPY THIS:
+"Hey Steven! Just wanted to reach out and say your website design is absolutely beautiful. Great job!"
+
+EXPECTED EMAIL INCLUDES:
+"Thank you for your very kind words about my work! If there is anything else I can assist you with please let me know..."
+
+--------------------------------------------------------
+TEST 6: The "Angry User" / Negative Trigger
+--------------------------------------------------------
+(Note: To test this, you must have the full AWS Comprehend AI enabled. If you are using the MOCK code, this will not work as MOCK is hardcoded to "POSITIVE")
+
+COPY THIS:
+"This website is completely broken and the colors are terrible. I am very unhappy with this experience."
+
+EXPECTED EMAIL INCLUDES:
+"I see that you are unhappy in your response. Can we please set up a session to discuss why you are not happy..."
